@@ -1,0 +1,25 @@
+console.log(1+"2"+"2");
+output:122
+Because:it acts as an concatenation operator so results as 122.
+
+console.log(1+ +"2"+"2");
+output:32
+Because:1+ +"2" acts as an integer so results as 1+2= 3 and +"2" is concatenation 
+        operator it results as 32 we get output as 32.
+
+console.log(1+ -"1"+"2");
+output:02
+Because:1+ -1 acts as  integer so results as 1-1= 0 and +"2" is concatenation 
+        operator it results as 02 we get output as 02.
+
+
+
+console.log("A"-"B"+"2");
+output:NaN2
+Because:if you are trying to use any operator expect "+"on string then it will
+        display"NaN" and +"2" concate with NaN and results as NaN2.
+
+console.log("A"-"B"+2);
+output:NaN
+Because:if you are trying to use any operator expect "+"on string then it will
+        display"NaN".
